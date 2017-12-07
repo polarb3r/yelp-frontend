@@ -1,0 +1,26 @@
+/*color palette: midnightblue, gainsboro, chartreuse, white*/
+
+#resReviewTableContainer {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  color: midnightblue;
+}
+
+.reviewTable {
+  color: midnightblue;
+  border-collapse: collapse;
+}
+
+#reviewTableHead {
+  width: 100%;
+  display: table;
+  text-align: left;
+  border-bottom: 1pt solid chartreuse;
+}
+
+.reviewTableLI {
+  width: 100%;
+  padding: 1%;
+  text-align: left;
+}

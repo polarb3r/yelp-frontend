@@ -1,0 +1,57 @@
+/*color palette: midnightblue, gainsboro, chartreuse, white*/
+
+.introContainer {
+  display: flex;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  height: 30%;
+  justify-content: flex-start;
+  border-radius: 10px;
+  background-color: white;
+}
+
+div.introContainer:hover {
+  background-color: white;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+#introLogo {
+  display: inline-flex;
+  height: 150px;
+  width: 150px;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+
+.introText {
+  display: block;
+  height: 30%;
+  padding-top: 4%;
+  margin-left: 5%;
+  color: midnightblue;
+  opacity: 1;
+}
+
+#introTextGrey {
+  color: white;
+  float: right;
+}
+
+div.introContainer:hover #introTextGrey {
+  color: midnightblue;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+#homePageTableContainer {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}

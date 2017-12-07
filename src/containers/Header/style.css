@@ -1,0 +1,81 @@
+/*color palette: midnightblue, gainsboro, chartreuse, white*/
+
+.headerContainer {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 90px;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: midnightblue;
+  color: gainsboro;
+  font-size: 1.5vw;
+  white-space: nowrap;
+}
+
+.headerContainerLeft {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.headerContainerLeftContent {
+  margin-right: 5%;
+}
+
+.headerLogo {
+  height: 50px;
+  width: 50px;
+  margin-right: 10%;
+}
+
+#headerInput {
+  margin: auto;
+  border-style: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1vw;
+  color: midnightblue;
+  background-color: whitesmoke;
+  padding-right: 5%;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#headerButton {
+  margin-left: 5%;
+  width: 100%;
+  border-style: none;
+  border: 0px;
+  font-family: sans-serif;
+  font-size: 1vw;
+  font-weight: bold;
+  color: midnightblue;
+  background-color: whitesmoke;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+button#headerButton:hover {
+  background-color: midnightblue;
+  color: chartreuse;
+}
+
+
+.headerContainerRight {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 7%;
+}
+
+.headerContainerRightContent {
+  margin-right: 5%;
+  margin-left: 10%;
+}

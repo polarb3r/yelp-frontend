@@ -1,0 +1,53 @@
+/*color palette: midnightblue, gainsboro, chartreuse, white*/
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  color: chartreuse;
+}
+
+a:hover {
+  color: chartreuse;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Sans-serif;
+}
+
+button {
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
+li {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+tbody {
+  width: 100%;
+}
+
+tr:hover td {
+  background-color: midnightblue;
+  color: gainsboro;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+textarea {
+  outline: none;
+}

@@ -1,0 +1,30 @@
+/*color palette: midnightblue, gainsboro, chartreuse, white*/
+
+#tableContainer {
+  width: 100%;
+  margin-top: 1%;
+}
+
+.homePageTable {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: midnightblue;
+  border-collapse: collapse;
+}
+
+.homePageTableTH {
+  width: 25%;
+  text-align: left;
+  padding: 1%;
+  border-bottom: 1pt solid chartreuse;
+  white-space: nowrap;
+}
+
+#homePageTablethead {
+  width: 100%;
+}
+
+#homePageTabletbody {
+  width: 100%;
+}

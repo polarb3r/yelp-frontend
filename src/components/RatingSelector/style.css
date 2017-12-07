@@ -1,0 +1,15 @@
+/*color palette: midnightblue, gainsboro, chartreuse, white*/
+
+#ratingButtons {
+  display: inline-flex;
+  width: 40%;
+  justify-content: center;
+}
+
+.fa-star {
+  margin-right: 5%;
+}
+
+.checked {
+  color: chartreuse;
+}

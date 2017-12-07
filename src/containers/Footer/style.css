@@ -1,0 +1,22 @@
+/*color palette: midnightblue, gainsboro, chartreuse, white*/
+
+.footerContainer {
+  position: fixed;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  bottom: 5px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: midnightblue;
+  color: gainsboro;
+  font-size: 10px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.footerContainerRight {
+  margin-right: 5%;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}

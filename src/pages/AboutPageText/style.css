@@ -1,0 +1,60 @@
+/*color palette: midnightblue, gainsboro, chartreuse, white*/
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-top: 7%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 0px;
+  height: 30%;
+}
+
+#aboutLogo {
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.creators {
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.aboutContainer {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  height: 30%;
+  background-color: white;
+  color: midnightblue;
+  text-align: center;
+}
+
+div.aboutContainer:hover {
+  background-color: white;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+#aboutTextGrey {
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+  font-size: 2vw;
+}
+
+div.aboutContainer:hover #aboutTextGrey {
+  color: midnightblue;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
